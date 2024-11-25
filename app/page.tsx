@@ -66,7 +66,7 @@ export default function Page() {
             playsInline
             className="w-full h-full object-cover"
           >
-            <source src="/img/1.gif" type="video/mp4" />
+            <source src="/img/1.mp4" type="video/mp4" />
           </video>
         </div>
 
