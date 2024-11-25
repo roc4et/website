@@ -43,14 +43,14 @@ export default function Page() {
         <meta name="description" content="roc4et.de - made by @roc4et" />
         <meta property="og:title" content="roc4et Services" />
         <meta property="og:description" content="Explore roc4et's exclusive services and community." />
-        <meta property="og:image" content="img/banner.png" />
+        <meta property="og:image" content="/img/banner.png" />
         <meta property="og:url" content="." />
         <meta property="og:type" content="website" />
-        <meta property="og:image:secure_url" content="img/banner.png" />
+        <meta property="og:image:secure_url" content="/img/banner.png" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="roc4et Services" />
         <meta name="twitter:description" content="Discover unique services provided by roc4et." />
-        <meta name="twitter:image" content="img/banner.png" />
+        <meta name="twitter:image" content="/img/banner.png" />
         <meta name="theme-color" content="#f54269" />
       </Head>
 
@@ -66,7 +66,7 @@ export default function Page() {
             playsInline
             className="w-full h-full object-cover"
           >
-            <source src="img/1.gif" type="video/mp4" />
+            <source src="/img/1.gif" type="video/mp4" />
           </video>
         </div>
 
@@ -77,7 +77,7 @@ export default function Page() {
             <div className="flex items-center gap-4 mb-6">
               <div className="relative w-20 h-20 sm:w-24 sm:h-24">
                 <Image
-                  src="img/favicon.png"
+                  src="/img/favicon.png"
                   alt="roc4et profile"
                   fill
                   className="rounded-full object-cover ring-2 ring-purple-500/50"
