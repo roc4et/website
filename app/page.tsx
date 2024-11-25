@@ -48,7 +48,7 @@ export default function Page() {
         <meta name="twitter:title" content="roc4et Services" />
         <meta name="twitter:description" content="Discover unique services provided by roc4et." />
         <meta name="theme-color" content="#f54269" />
-        <link rel="icon" type="image/x-icon" href="/img/img/favicon.ico"></link>
+        <link rel="icon" type="image/x-icon" href="/imgfavicon.ico"></link>
       </Head>
 
       {/* Page Content */}
@@ -63,7 +63,7 @@ export default function Page() {
             playsInline
             className="w-full h-full object-cover"
           >
-            <source src="/img/img/1.mp4" type="video/mp4" />
+            <source src="/img1.mp4" type="video/mp4" />
           </video>
         </div>
 
@@ -74,7 +74,7 @@ export default function Page() {
             <div className="flex items-center gap-4 mb-6">
               <div className="relative w-20 h-20 sm:w-24 sm:h-24">
                 <Image
-                  src="/img/img/favicon.png"
+                  src="/imgfavicon.png"
                   alt="roc4et profile"
                   fill
                   className="rounded-full object-cover ring-2 ring-purple-500/50"
