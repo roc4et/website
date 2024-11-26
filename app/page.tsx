@@ -1,6 +1,7 @@
 'use client'
 
 import Image from 'next/image'
+import { useRouter } from 'next/router';
 import { useEffect } from 'react'
 import { Instagram, Send } from 'lucide-react'
 import { Button } from "@/components/ui/button"
@@ -46,6 +47,7 @@ export default function Page() {
       document.removeEventListener('contextmenu', handleContextMenu)
     }
   }, [])
+  const { basePath } = useRouter();
   return (
     <main className="min-h-screen w-full relative overflow-hidden select-none">
       {/* Background Video with Overlay */}
@@ -60,7 +62,7 @@ export default function Page() {
           onContextMenu={(e) => e.preventDefault()}
           controlsList="nodownload"
         >
-          <source src="/1.mp4" type="video/mp4" />
+          <source src={`${basePath}/1.mp4`} type="video/mp4" />
         </video>
       </div>
 
@@ -71,7 +73,7 @@ export default function Page() {
           <div className="flex items-center gap-4 mb-6">
             <div className="relative w-20 h-20 sm:w-24 sm:h-24">
               <Image
-                src="/favicon.png"
+                src={`${basePath}/favicon.png`}
                 alt="roc4et profile"
                 width={96}
                 height={96}
