@@ -138,7 +138,7 @@ export default function Page() {
           {/* Join Button */}
           <Button
             className="w-full bg-gradient-to-r from-violet-600 to-indigo-600 hover:from-violet-700 hover:to-indigo-700 text-white font-medium py-4 sm:py-6 text-base sm:text-lg tracking-wide shadow-lg shadow-violet-500/20 border border-white/10 transition-all duration-300 hover:scale-[1.02] relative overflow-hidden group"
-            onClick={() => window.open('https://discord.gg/QTbwJ9g7CP', '_blank')}
+            onClick={() => window.open('https://discord.gg/RcA2XF6qpS', '_blank')}
           >
             <span className="relative z-10 flex items-center justify-center gap-2">
               Join Community
