@@ -138,7 +138,7 @@ export default function Page() {
           {/* Join Button */}
           <Button
             className="w-full bg-gradient-to-r from-violet-600 to-indigo-600 hover:from-violet-700 hover:to-indigo-700 text-white font-medium py-4 sm:py-6 text-base sm:text-lg tracking-wide shadow-lg shadow-violet-500/20 border border-white/10 transition-all duration-300 hover:scale-[1.02] relative overflow-hidden group"
-            onClick={() => window.open('https://discord.gg/RcA2XF6qpS', '_blank')}
+            onClick={() => window.open('https://t.me/+i_ckLS-SfwBlZTRi', '_blank')}
           >
             <span className="relative z-10 flex items-center justify-center gap-2">
               Join Community
@@ -157,6 +157,30 @@ export default function Page() {
               </svg>
             </span>
             <div className="absolute inset-0 bg-gradient-to-r from-violet-600/40 to-indigo-600/40 blur-xl group-hover:blur-2xl transition-all duration-300 opacity-0 group-hover:opacity-100"></div>
+          </Button>
+
+          {/* Deutschrap Leaks Gruppe Button */}
+          <Button
+            className="w-full bg-gradient-to-r from-violet-600 to-indigo-600 hover:from-violet-700 hover:to-indigo-700 text-white font-medium py-4 sm:py-6 text-base sm:text-lg tracking-wide shadow-lg shadow-green-500/20 border border-white/10 transition-all duration-300 hover:scale-[1.02] relative overflow-hidden group mt-4"
+            onClick={() => window.open('https://t.me/+m5tfWlQ5EQJkMzQy', '_blank')}
+          >
+            <span className="relative z-10 flex items-center justify-center gap-2">
+              Free Deutschrap Leaks Gruppe
+              <svg
+                className="w-5 h-5 transition-transform duration-300 transform group-hover:translate-x-1"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M13 7l5 5m0 0l-5 5m5-5H6"
+                />
+              </svg>
+            </span>
+            <div className="absolute inset-0 bg-gradient-to-r from-green-600/40 to-teal-600/40 blur-xl group-hover:blur-2xl transition-all duration-300 opacity-0 group-hover:opacity-100"></div>
           </Button>
         </div>
       </div>
