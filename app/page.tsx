@@ -95,7 +95,7 @@ export default function Page() {
               <span className="sr-only">Instagram</span>
             </a>
             <a
-              href="https://tiktok.com/@252476609017040896"
+              href="https://tiktok.com/@roc4et"
               target="_blank"
               rel="noopener noreferrer"
               className="text-white/80 hover:text-[rgba(76,209,228,1)] transition-all duration-200 glow-hover"
